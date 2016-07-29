@@ -35,3 +35,11 @@ for suit in ['H', 'S', 'C', 'D']:
     cards.extend(str(num) + suit for num in base_names)
 
 deck = Series(cal_val, index=cards)
+
+##
+book = 7.0
+
+if book > 5.0:
+    print('Large Cap')
+else:
+    print('Small')
